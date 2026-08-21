@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TrueLevel</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #111418;
+      --fg: #e8eaed;
+      --muted: #9aa0a6;
+      --accent: #7dd3a8;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f7f8f6;
+        --fg: #1a1c1a;
+        --muted: #5f6368;
+        --accent: #1b7a4e;
+      }
+    }
+    body {
+      font-family: system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      max-width: 40rem;
+      margin: 2rem auto;
+      padding: 0 1.25rem 3rem;
+      line-height: 1.55;
+    }
+    a { color: var(--accent); }
+    .meta { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <h1>TrueLevel</h1>
+  <p>An ad-free bubble level for Android. No ads, no tracking, no network access.</p>
+  <p><a href="privacy.html">Privacy policy</a></p>
+  <p class="meta">Application ID: com.droque.truelevel</p>
+</body>
+</html>

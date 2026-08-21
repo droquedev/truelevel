@@ -34,3 +34,10 @@ java tool/FlattenPng.java store/feature_graphic.png
 
 The second step strips the alpha channel, which Play rejects on the feature
 graphic and on screenshots.
+
+## Privacy policy
+
+Play Console needs a public HTTPS page. Host `docs/` with GitHub Pages
+(Settings → Pages → Deploy from branch, folder `/docs`). The policy URL is:
+
+`https://<github-user>.github.io/<repo>/privacy.html`
